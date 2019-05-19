@@ -1,0 +1,12 @@
+{
+  "name": "webRtc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:bhagyasah/webRtc-test.git",
+  "author": "bhagyasah <bhagyasah4u@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "app-node": "^0.2.6",
+    "express": "^4.17.0"
+  }
+}
