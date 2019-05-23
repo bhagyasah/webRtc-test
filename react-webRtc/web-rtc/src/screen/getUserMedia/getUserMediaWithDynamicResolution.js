@@ -20,7 +20,7 @@ class Index extends React.Component {
   render() {
     return (
       <div>
-        <video autoPlay></video>
+        <video autoPlay controls></video>
       </div>
     )
   }

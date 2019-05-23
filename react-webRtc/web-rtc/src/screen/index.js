@@ -3,7 +3,7 @@ import BasicGetUserMedia from './getUserMedia/basicGetUserMediaDemo';
 import GetUserMediaWidthConvas from './getUserMedia/getUserMediaWithConvas';
 import GetUserMediaWithCssFilter from './getUserMedia/getUserMediaWithCssFilter';
 import GetUserMediaWithDifferentDimensitons from './getUserMedia/getUserMediaWithDynamicResolution';
-
+import GetUserMediaOnlyAudio from './getUserMedia/getUserMediaAudioOnly';
 
 class Index extends React.Component {
 
@@ -15,7 +15,8 @@ class Index extends React.Component {
         {/* <BasicGetUserMedia /> */}
         {/* <GetUserMediaWidthConvas /> */}
         {/* <GetUserMediaWithCssFilter /> */}
-        <GetUserMediaWithDifferentDimensitons />
+        {/* <GetUserMediaWithDifferentDimensitons /> */}
+        <GetUserMediaOnlyAudio />
       </div>
     )
   }
