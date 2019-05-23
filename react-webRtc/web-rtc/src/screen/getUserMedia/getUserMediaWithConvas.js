@@ -1,6 +1,6 @@
 import React from 'react';
 
-class GetUserMediaWithConvas extends React.Component{
+class GetUserMediaWithConvas extends React.Component {
   state = {};
 
   componentDidMount() {

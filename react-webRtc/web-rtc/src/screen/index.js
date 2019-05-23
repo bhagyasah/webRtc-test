@@ -1,6 +1,7 @@
 import React from 'react';
 import BasicGetUserMedia from './getUserMedia/basicGetUserMediaDemo';
 import GetUserMediaWidthConvas from './getUserMedia/getUserMediaWithConvas';
+import GetUserMediaWithCssFilter from './getUserMedia/getUserMediaWithCssFilter';
 
 
 class Index extends React.Component {
@@ -11,7 +12,8 @@ class Index extends React.Component {
     return (
       <div>
         {/* <BasicGetUserMedia /> */}
-        <GetUserMediaWidthConvas />
+        {/* <GetUserMediaWidthConvas /> */}
+        <GetUserMediaWithCssFilter />
       </div>
     )
   }
