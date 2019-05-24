@@ -4,6 +4,9 @@ import GetUserMediaWidthConvas from './getUserMedia/getUserMediaWithConvas';
 import GetUserMediaWithCssFilter from './getUserMedia/getUserMediaWithCssFilter';
 import GetUserMediaWithDifferentDimensitons from './getUserMedia/getUserMediaWithDynamicResolution';
 import GetUserMediaOnlyAudio from './getUserMedia/getUserMediaAudioOnly';
+import SoundMeterWithGetUserMedia from './getUserMedia/soundMeterWithGetUserMedia';
+import MediaRecorder from './getUserMedia/mediaRecorder';
+import ScreenSharing from './getUserMedia/screenSharing';
 
 class Index extends React.Component {
 
@@ -16,7 +19,10 @@ class Index extends React.Component {
         {/* <GetUserMediaWidthConvas /> */}
         {/* <GetUserMediaWithCssFilter /> */}
         {/* <GetUserMediaWithDifferentDimensitons /> */}
-        <GetUserMediaOnlyAudio />
+        {/* <GetUserMediaOnlyAudio /> */}
+        {/* <SoundMeterWithGetUserMedia /> */}
+        {/* <MediaRecorder /> */}
+        <ScreenSharing />
       </div>
     )
   }
