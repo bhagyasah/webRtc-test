@@ -7,6 +7,8 @@ import GetUserMediaOnlyAudio from './getUserMedia/getUserMediaAudioOnly';
 import SoundMeterWithGetUserMedia from './getUserMedia/soundMeterWithGetUserMedia';
 import MediaRecorder from './getUserMedia/mediaRecorder';
 import ScreenSharing from './getUserMedia/screenSharing';
+import ChooseCamraMicrophoneAndSpeaker from './devices/chooseCamraMicroPhoneAndSpeaker';
+import VideoToVideoCaptcher from './screen-capture/videoToVideo';
 
 class Index extends React.Component {
 
@@ -22,7 +24,9 @@ class Index extends React.Component {
         {/* <GetUserMediaOnlyAudio /> */}
         {/* <SoundMeterWithGetUserMedia /> */}
         {/* <MediaRecorder /> */}
-        <ScreenSharing />
+        {/* <ScreenSharing /> */}
+        {/* <ChooseCamraMicrophoneAndSpeaker /> */}
+        <VideoToVideoCaptcher />
       </div>
     )
   }
