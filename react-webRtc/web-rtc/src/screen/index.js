@@ -9,6 +9,8 @@ import MediaRecorder from './getUserMedia/mediaRecorder';
 import ScreenSharing from './getUserMedia/screenSharing';
 import ChooseCamraMicrophoneAndSpeaker from './devices/chooseCamraMicroPhoneAndSpeaker';
 import VideoToVideoCaptcher from './screen-capture/videoToVideo';
+import VideoToPeerConnection from './screen-capture/videoToPeerConnection';
+import CanvasToVideo from './screen-capture/convasToVideo';
 
 class Index extends React.Component {
 
@@ -26,7 +28,9 @@ class Index extends React.Component {
         {/* <MediaRecorder /> */}
         {/* <ScreenSharing /> */}
         {/* <ChooseCamraMicrophoneAndSpeaker /> */}
-        <VideoToVideoCaptcher />
+        {/* <VideoToVideoCaptcher /> */}
+        {/* <VideoToPeerConnection /> */}
+        <CanvasToVideo />
       </div>
     )
   }
