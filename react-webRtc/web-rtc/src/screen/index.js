@@ -11,6 +11,7 @@ import ChooseCamraMicrophoneAndSpeaker from './devices/chooseCamraMicroPhoneAndS
 import VideoToVideoCaptcher from './screen-capture/videoToVideo';
 import VideoToPeerConnection from './screen-capture/videoToPeerConnection';
 import CanvasToVideo from './screen-capture/convasToVideo';
+import CanvasToPeerConnection from './screen-capture/canvasToPeerConnection';
 
 class Index extends React.Component {
 
@@ -30,7 +31,8 @@ class Index extends React.Component {
         {/* <ChooseCamraMicrophoneAndSpeaker /> */}
         {/* <VideoToVideoCaptcher /> */}
         {/* <VideoToPeerConnection /> */}
-        <CanvasToVideo />
+        {/* <CanvasToVideo /> */}
+        <CanvasToPeerConnection />
       </div>
     )
   }
