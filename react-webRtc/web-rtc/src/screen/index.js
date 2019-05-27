@@ -12,6 +12,9 @@ import VideoToVideoCaptcher from './screen-capture/videoToVideo';
 import VideoToPeerConnection from './screen-capture/videoToPeerConnection';
 import CanvasToVideo from './screen-capture/convasToVideo';
 import CanvasToPeerConnection from './screen-capture/canvasToPeerConnection';
+import CanvasRecord from './screen-capture/canvasRecord';
+import BasicPeerConnectionDemo from './rtc-peer-connection/BasicDemo';
+import UpgradeCallAndTurnonVideo from './rtc-peer-connection/upgradeCallAndTurnonVideo';
 
 class Index extends React.Component {
 
@@ -32,7 +35,10 @@ class Index extends React.Component {
         {/* <VideoToVideoCaptcher /> */}
         {/* <VideoToPeerConnection /> */}
         {/* <CanvasToVideo /> */}
-        <CanvasToPeerConnection />
+        {/* <CanvasToPeerConnection /> */}
+        {/* <CanvasRecord /> */}
+        {/* <BasicPeerConnectionDemo /> */}
+        <UpgradeCallAndTurnonVideo />
       </div>
     )
   }

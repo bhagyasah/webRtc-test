@@ -9,8 +9,8 @@ function main() {
   ImageTest.onload = () => {
     canvas.getContext('2d').drawImage(ImageTest, 0, 0);
   }
-  let stream = canvas.captureStream();
 
+let stream = canvas.captureStream(30);
 let pc1;
 let pc2;
 

@@ -12,7 +12,7 @@ class Index extends React.Component {
     ImageTest.onload = () => {
       canvas.getContext('2d').drawImage(ImageTest, 0, 0);
     }
-    const stream = canvas.captureStream();
+    const stream = canvas.captureStream(35);
     video.srcObject = stream;
   }
 
