@@ -15,6 +15,9 @@ import CanvasToPeerConnection from './screen-capture/canvasToPeerConnection';
 import CanvasRecord from './screen-capture/canvasRecord';
 import BasicPeerConnectionDemo from './rtc-peer-connection/BasicDemo';
 import UpgradeCallAndTurnonVideo from './rtc-peer-connection/upgradeCallAndTurnonVideo';
+import MultiPeerConnectiosAtOnce from './rtc-peer-connection/multiPeerConnectionAtOnce';
+import MultipleRelay from './rtc-peer-connection/multipleRelay';
+import MungeSDP from './rtc-peer-connection/MungeSdp';
 
 class Index extends React.Component {
 
@@ -38,7 +41,10 @@ class Index extends React.Component {
         {/* <CanvasToPeerConnection /> */}
         {/* <CanvasRecord /> */}
         {/* <BasicPeerConnectionDemo /> */}
-        <UpgradeCallAndTurnonVideo />
+        {/* <UpgradeCallAndTurnonVideo /> */}
+        {/* <MultiPeerConnectiosAtOnce /> */}
+        {/* <MultipleRelay /> */}
+        <MungeSDP />
       </div>
     )
   }
