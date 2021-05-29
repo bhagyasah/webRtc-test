@@ -8,6 +8,6 @@
   "dependencies": {
     "app-node": "^0.2.6",
     "express": "^4.17.0",
-    "ws": "^7.0.0"
+    "ws": "^7.4.6"
   }
 }
